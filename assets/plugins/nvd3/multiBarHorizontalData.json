@@ -1,0 +1,221 @@
+[
+  {
+    "data1" : [
+      {
+        "key": "Accredited",
+        "color": "#5bbbff",
+        "values": [
+          {
+            "label" : "CNS" ,
+            "value" : 110
+          } ,
+          {
+            "label" : "Diabetes" ,
+            "value" : 150
+          } ,
+          {
+            "label" : "Cardivascular" ,
+            "value" : 90
+          } ,
+          {
+            "label" : "Oncology" ,
+            "value" : 70
+          } ,
+          {
+            "label" : "Autoimmune" ,
+            "value" : 100
+          }
+
+        ]
+      },
+      {
+        "key": "Non accredited",
+        "color": "#003459",
+        "values": [
+          {
+            "label" : "CNS" ,
+            "value" : 78
+          } ,
+          {
+            "label" : "Diabetes" ,
+            "value" : 100
+          } ,
+          {
+            "label" : "Cardivascular" ,
+            "value" : 50
+          } ,
+          {
+            "label" : "Oncology" ,
+            "value" : 50
+          } ,
+          {
+            "label" : "Autoimmune" ,
+            "value" : 72
+          }
+
+        ]
+      }
+    ]
+  },
+
+  {
+   "data2" : [
+    {
+      "key": "Completed meeting",
+      "color": "#5bbbff",
+      "values": [
+        {
+          "label2" : "ON" ,
+          "value2" : 280
+        } ,
+        {
+          "label2" : "QC" ,
+          "value2" : 250
+        } ,
+        {
+          "label2" : "AB" ,
+          "value2" : 190
+        } ,
+        {
+          "label2" : "BC" ,
+          "value2" : 170
+        } ,
+        {
+          "label2" : "SASK" ,
+          "value2" : 150
+        },
+        {
+          "label2" : "MB" ,
+          "value2" : 120
+        },
+        {
+          "label2" : "NS" ,
+          "value2" : 100
+        },
+        {
+          "label2" : "NB" ,
+          "value2" : 90
+        },
+        {
+          "label2" : "NFLD" ,
+          "value2" : 70
+        },
+        {
+          "label2" : "PEI" ,
+          "value2" : 60
+        }
+
+      ]
+    },
+    {    "key": "Upcoming Meetings",
+      "color": "#003459",
+      "values": [
+        {
+          "label2" : "ON" ,
+          "value2" : 260
+        } ,
+        {
+          "label2" : "QC" ,
+          "value2" : 230
+        } ,
+        {
+          "label2" : "AB" ,
+          "value2" : 170
+        } ,
+        {
+          "label2" : "BC" ,
+          "value2" : 150
+        } ,
+        {
+          "label2" : "SASK" ,
+          "value2" : 110
+        },
+        {
+          "label2" : "MB" ,
+          "value2" : 120
+        },
+        {
+          "label2" : "NS" ,
+          "value2" : 80
+        },
+        {
+          "label2" : "NB" ,
+          "value2" : 50
+        },
+        {
+          "label2" : "NFLD" ,
+          "value2" : 30
+        },
+        {
+          "label2" : "PEI" ,
+          "value2" : 20
+        }
+
+
+      ]
+    }
+  ]
+  },
+    {
+    "data3" : [
+      {
+        "key": "Pre meetings",
+        "visible": false,
+        "color": "#5bbbff",
+        "values": [
+          {
+            "x" : "I am Not interested" ,
+            "y" : 80
+          } ,
+          {
+            "x" : "I see the need but..." ,
+            "y" : 85
+          } ,
+          {
+            "x" : "I would like to learn more" ,
+            "y" : 87
+          } ,
+          {
+            "x" : "I am ready to do this" ,
+            "y" : 70
+          } ,
+          {
+            "x" : "I do this consistently" ,
+            "y" : 50
+          }
+
+        ]
+      },
+      {
+        "key": "Post meetings",
+
+        "color": "#003459",
+        "visible": true,
+        "values": [
+          {
+            "x" : "I am Not interested" ,
+            "y" : 100
+          } ,
+          {
+            "x" : "I see the need but..." ,
+            "y" : 90
+          } ,
+          {
+            "x" : "I would like to learn more" ,
+            "y" : 95
+          } ,
+          {
+            "x" : "I am ready to do this" ,
+            "y" : 85
+          } ,
+          {
+            "x" : "I do this consistently" ,
+            "y" : 70
+          }
+
+        ]
+      }
+    ]
+  }
+
+]
