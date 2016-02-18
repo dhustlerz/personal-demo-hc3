@@ -10,21 +10,21 @@
 
              // PAGE CONTENT -->
              echo'<div class="page-content">';
-             if ($request_URI == '/personal-demo-hc3/overview.php') {
+             if ($request_URI == '/demohc31/personal-demo-hc3/overview.php') {
                 include 'content.inc.php';
              }
-             elseif ($request_URI == '/personal-demo-hc3/needs-assessment.php') {
+             elseif ($request_URI == '/demohc31/personal-demo-hc3/needs-assessment.php') {
                  include 'content-needs-assesment.inc.php';
              }
-             elseif($request_URI == '/personal-demo-hc3/program-evaluation.php?p=diabetes&t=all')
+             elseif($request_URI == '/demohc31/personal-demo-hc3/program-evaluation.php?p=diabetes&t=all')
              {
                 include 'content-diabetes.inc.php';
              }
-             elseif($request_URI == '/personal-demo-hc3/program-evaluation.php?p=diabetes&t=accr')
+             elseif($request_URI == '/demohc31/personal-demo-hc3/program-evaluation.php?p=diabetes&t=accr')
              {
                 include 'content-diabetes-accr.inc.php';
              }
-             elseif($request_URI == '/personal-demo-hc3/program-evaluation.php?p=diabetes&t=non-accr')
+             elseif($request_URI == '/demohc31/personal-demo-hc3/program-evaluation.php?p=diabetes&t=non-accr')
              {
                 include 'content-diabetes-non-accr.inc.php';
              }
