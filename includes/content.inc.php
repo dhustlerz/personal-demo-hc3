@@ -139,9 +139,9 @@ $output.='<div class="page-content-wrap ">';
             $output.='<div class=" panel-header">Target Audience Participation</div>';
                 $output.='<div class="panel-body bg-ffffff padding-0">';
                     $output.='<div class="text-center padding-top-80  font-size-14"  style="height: 330px;">';
-                    $output.='<div><canvas id="dashboard-gauge"></canvas></div>';
+                    // $output.='<div><canvas id="dashboard-gauge"></canvas></div>';
                     $output.='<div class="color-2DAAE1 font-size-18 font-bold"><span id="dashboard-gauge-font"></span></div>';
-                    //$output.='<input class="knob" data-width="200" data-thickness=".3" data-angleOffset="270" data-angleArc="180" data-fgColor="#0173B2" value="90"/>';
+                    $output.='<input class="knob" data-width="200" data-thickness=".3" data-angleOffset="270" data-angleArc="180" data-fgColor="#0173B2" value="90"/>';
                     $output.='</div>';
 
                 $output.='</div>';

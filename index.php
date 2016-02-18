@@ -1,5 +1,6 @@
 <?php
 /* Redirect browser */
-header("Location: http://www.flexxia.com/hc3-demo/overview.php");
+echo $_SERVER['SERVER_NAME'];
+header("Location: http://" . $_SERVER['SERVER_NAME'] . "/personal-demo-hc3/overview.php");
  exit;
 ?>
